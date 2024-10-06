@@ -1,6 +1,6 @@
-#Welcome to Software Testing project by using Unit Testing Framework
+# Welcome to Software Testing project by using Unit Testing Framework
 
-##You will find in this repository:
+## You will find in this repository:
 
 * Maven project including JUnit Testing
 * .gitignore file for NetBeans project
