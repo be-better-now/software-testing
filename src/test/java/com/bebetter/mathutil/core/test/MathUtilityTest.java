@@ -3,6 +3,8 @@ package com.bebetter.mathutil.core.test;
 import static com.bebetter.mathutil.core.MathUtility.*;
 import org.junit.jupiter.api.Test;
 
+import java.sql.SQLException;
+
 import static org.junit.jupiter.api.Assertions.*;
 class MathUtilityTest {
 
@@ -33,6 +35,18 @@ class MathUtilityTest {
         assertEquals(24, getFactorial(4));
         assertEquals(120, getFactorial(5));
         assertEquals(720, getFactorial(6));
+    }
+
+    //Test case #3: Check getFactorial() with n = -5... to see the Exception
+    //Chủ động tôi muốn thấy có ngoại lệ xuất hiện trong tình huống n am hoặc n > 20
+    //Ngoại lệ có xuất hiện như dự kiến hay không... nếu có thì phải màu xanh
+    //NOTES: CÓ NGOẠI LỆ, NHƯNG MÀU XANH, VÌ NGOẠI LỆ XUẤT HIỆN NHƯ DỰ KIẾN
+
+    @Test
+    void testFactorialGivenWrongArgumentThrowsException() {
+        //getFactorial(-5);
+        assertThrows(IllegalArgumentException.class, () -> {getFactorial(-5);});
+        assertThrows(IllegalArgumentException.class, () -> {getFactorial(22);});
     }
 }
 
