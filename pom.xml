@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>math-util-swt302c</artifactId>
+    <artifactId>math-util-swt301</artifactId>
     <version>1.0</version>
 
     <properties>
