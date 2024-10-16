@@ -1,9 +1,11 @@
-# Welcome to Software Testing project by using Unit Testing Framework
+# Welcome to Software Testing (using Maven)
 
-## You will find in this repository:
+## You will find in this repository the:
 
-* Maven project including JUnit Testing
-* .gitignore file for NetBeans project
+* A Maven project to simulate the Math library
+* A Unit Test source code using JUnit Testing Framework
+* A TDD, DDT source code
+* A CI (Continuous Integration)
 * README.md - this file itself - Using Markdown language
 
-### © 2024 bebetter | fb/im.huuduy
+#### &#169; © 2024 bebetter | fb/im.huuduy
