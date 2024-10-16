@@ -8,4 +8,4 @@
 * A CI (Continuous Integration)
 * README.md - this file itself - Using Markdown language
 
-#### &#169; © 2024 bebetter | fb/im.huuduy
+#### &#169; 2024 bebetter | fb/im.huuduy
