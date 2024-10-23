@@ -7,5 +7,6 @@
 * A TDD, DDT source code
 * A CI (Continuous Integration)
 * README.md - this file itself - Using Markdown language
+* Test Automation Framework - Selenium
 
 #### &#169; 2024 bebetter | fb/im.huuduy
